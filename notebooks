@@ -1,0 +1,8 @@
+import pandas as pd
+import os
+os.getcwd()
+os.chdir(r"C:\Users\pasup\DE-Portfolio-2026\week1")
+df = pd.read_csv(r"C:\Users\pasup\DE-Portfolio-2026\week1\sales_data.csv")
+print(df.head(5))
+print(df.info())
+print(df.columns)
